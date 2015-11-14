@@ -1,7 +1,7 @@
 # puppet-classifier
 Ruby Classification Script
 
-### This is my first ruby script
+###### This is my first ruby script
 
 Here is how I go about using [puppet-classify](https://github.com/puppetlabs/puppet-classify) and the [Ruby MongoDB Driver](https://docs.mongodb.org/ecosystem/drivers/ruby/) to backup my puppet classifications into MongoDB.
 
