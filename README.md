@@ -3,6 +3,9 @@ Ruby Classification Script
 
 ###### This is my first ruby script
 
+ ![WARNING](http://kristianreese.com/images/warning.png "WARNING")
+ This script will delete the 'Agent-specified environment' and 'Production environment' Node Groups because I do not use them.  If you do, then remove lines 83 thru 93
+
 Here is how I go about using [puppet-classify](https://github.com/puppetlabs/puppet-classify) and the [Ruby MongoDB Driver](https://docs.mongodb.org/ecosystem/drivers/ruby/) to backup my puppet classifications into MongoDB.
 
 In it, I have two MongoDB databases.  One for my local vagrant development environment, and the other for production.
